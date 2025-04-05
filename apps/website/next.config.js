@@ -22,6 +22,7 @@ const nextConfig = {
         os: false
       }
     }
+    config.externals = [...(config.externals || []), 'gamba-core-v2']
     return config
   },
   experimental: {
