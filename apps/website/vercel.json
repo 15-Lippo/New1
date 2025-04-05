@@ -1,6 +1,6 @@
 {
   "framework": "nextjs",
-  "buildCommand": "cd ../.. && pnpm install && pnpm build",
+  "buildCommand": "cd ../.. && pnpm install && pnpm build --filter=website...",
   "outputDirectory": ".next",
   "installCommand": "pnpm install",
   "regions": ["cdg1"],
