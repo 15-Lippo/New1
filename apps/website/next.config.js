@@ -8,7 +8,7 @@ const withNextra = require('nextra')({
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  transpilePackages: ['lisprocoin-core-v2', 'lisprocoin-react-v2', 'lisprocoin-react-ui-v2'],
+  transpilePackages: ['@gamba/core', '@gamba/react', '@gamba/react-ui'],
   webpack: (config) => {
     config.resolve.fallback = { fs: false, net: false, tls: false }
     return config
