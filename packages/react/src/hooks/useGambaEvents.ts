@@ -1,6 +1,6 @@
 import { useConnection } from '@solana/wallet-adapter-react'
 import { PublicKey } from '@solana/web3.js'
-import { AnyGambaEvent, GambaEventType, GambaTransaction, PROGRAM_ID, fetchGambaTransactions } from 'gamba-core-v2'
+import { AnyGambaEvent, GambaEventType, GambaTransaction, PROGRAM_ID, fetchGambaTransactions } from '@gamba/core'
 import React from 'react'
 import { useGambaProgram } from '.'
 

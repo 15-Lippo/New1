@@ -1,6 +1,6 @@
 import { useWallet } from '@solana/wallet-adapter-react'
 import { Keypair, PublicKey } from '@solana/web3.js'
-import { decodeAta, getPoolAddress, getUserBonusAtaForPool, getUserUnderlyingAta, isNativeMint } from 'gamba-core-v2'
+import { decodeAta, getPoolAddress, getUserBonusAtaForPool, getUserUnderlyingAta, isNativeMint } from '@gamba/core'
 import { useAccount } from './useAccount'
 
 // Bad hack to make sure there's a publicKey if user is not connected

@@ -24,6 +24,7 @@
     "@solana/wallet-adapter-react": "^0.15.35",
     "@solana/web3.js": "^1.87.6",
     "@gamba/core": "workspace:*",
+    "gamba-core-v2": "workspace:*",
     "react": "^18.3.1",
     "swr": "^2.2.4",
     "zustand": "^4.4.3"

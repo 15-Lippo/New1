@@ -1,5 +1,5 @@
 import { useConnection } from '@solana/wallet-adapter-react'
-import { decodeGame, getGameAddress, getNextResult } from 'gamba-core-v2'
+import { decodeGame, getGameAddress, getNextResult } from '@gamba/core'
 import { useAccount } from './useAccount'
 import { useWalletAddress } from './useBalances'
 import { useGambaPlay } from './useGambaPlay'

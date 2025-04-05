@@ -1,5 +1,5 @@
 import { useConnection, useWallet } from '@solana/wallet-adapter-react'
-import { GambaProvider as GambaProviderCore } from 'gamba-core-v2'
+import { GambaProvider as GambaProviderCore } from '@gamba/core'
 import React, { useMemo, useState } from 'react'
 import { GambaPlugin } from './plugins'
 

@@ -1,4 +1,4 @@
-export { type GameResult } from 'gamba-core-v2'
+export { type GameResult } from '@gamba/core'
 export * from './SendTransactionContext'
 export * from './GambaProvider'
 export * from './hooks'

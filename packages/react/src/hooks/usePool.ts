@@ -1,5 +1,5 @@
 import { PublicKey } from '@solana/web3.js'
-import { BPS_PER_WHOLE, SYSTEM_PROGRAM, decodeAta, decodeGambaState, decodePool, getGambaStateAddress, getPoolAddress, getPoolJackpotTokenAccountAddress } from 'gamba-core-v2'
+import { BPS_PER_WHOLE, SYSTEM_PROGRAM, decodeAta, decodeGambaState, decodePool, getGambaStateAddress, getPoolAddress, getPoolJackpotTokenAccountAddress } from '@gamba/core'
 import { useAccount } from './useAccount'
 
 export interface UiPoolState {

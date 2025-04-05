@@ -1,6 +1,6 @@
 import * as SplToken from '@solana/spl-token'
 import { PublicKey, SystemProgram, TransactionInstruction } from '@solana/web3.js'
-import { GambaProvider } from 'gamba-core-v2'
+import { GambaProvider } from '@gamba/core'
 import { GambaPlayInput } from './hooks'
 
 export interface GambaPluginInput {

@@ -1,6 +1,6 @@
 import { useWallet } from '@solana/wallet-adapter-react'
 import { PublicKey, TransactionInstruction } from '@solana/web3.js'
-import { NATIVE_MINT, SYSTEM_PROGRAM, getPoolAddress } from 'gamba-core-v2'
+import { NATIVE_MINT, SYSTEM_PROGRAM, getPoolAddress } from '@gamba/core'
 import React from 'react'
 import { useGambaProvider } from '.'
 import { GambaContext } from '../GambaProvider'
