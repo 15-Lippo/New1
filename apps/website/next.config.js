@@ -9,16 +9,23 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   transpilePackages: ['@gamba/core', '@gamba/react', '@gamba/react-ui'],
-  webpack: (config) => {
-    config.resolve.fallback = { 
-      fs: false, 
-      net: false, 
-      tls: false,
-      buffer: require.resolve('buffer/'),
-      stream: require.resolve('stream-browserify'),
-      crypto: require.resolve('crypto-browserify'),
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        fs: false,
+        net: false,
+        tls: false,
+        buffer: require.resolve('buffer/'),
+        stream: require.resolve('stream-browserify'),
+        crypto: require.resolve('crypto-browserify'),
+        path: false,
+        os: false
+      }
     }
     return config
+  },
+  experimental: {
+    esmExternals: 'loose'
   }
 }
 
