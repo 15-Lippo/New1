@@ -3,30 +3,30 @@ import { DocsThemeConfig, useConfig } from 'nextra-theme-docs'
 import { useRouter } from 'next/router'
 
 const config: DocsThemeConfig = {
-  logo: (<><img src="/logo.svg" alt="Gamba Logo" /></>),
-  project: { link: 'https://github.com/gamba-labs' },
+  logo: (<><img src="/lisprocoin.svg" alt="Lisprocoin Logo" /></>),
+  project: { link: 'https://github.com/lisprocoin' },
   chat: { link: 'https://discord.gg/xjBsW3e8fK' },
-  docsRepositoryBase: 'https://github.com/gamba-labs/gamba/tree/docs/apps/website',
+  docsRepositoryBase: 'https://github.com/lisprocoin/lisprocoin/tree/docs/apps/website',
   nextThemes: {
     defaultTheme: 'dark',
     forcedTheme: 'dark',
   },
   themeSwitch: { component: () => null },
-  footer: { text: 'Gamba ©©©©©©©©' },
+  footer: { text: 'Lisprocoin ' },
   head: () => {
     const { asPath, pathname } = useRouter()
     const { frontMatter } = useConfig()
     const ogConfig = {
-      title: 'Gamba',
-      description: 'Build your own web3 games with Gamba, a decentralized betting platform on Solana',
-      author: { twitter: 'gambalabs' },
-      favicon: '/gamba.svg',
+      title: 'Lisprocoin',
+      description: 'Build your own web3 games with Lisprocoin, a decentralized betting platform on Solana',
+      author: { twitter: 'lisprocoin' },
+      favicon: '/lisprocoin.svg',
     }
     const favicon = String(ogConfig.favicon)
     const title = String(frontMatter.title || ogConfig.title)
     const description = String(frontMatter.description || ogConfig.description)
-    const canonical = new URL(asPath, 'https://gamba.so').toString()
-    const image = 'https://www.gamba.so/og.png'
+    const canonical = new URL(asPath, 'https://lisprocoin.so').toString()
+    const image = 'https://www.lisprocoin.so/og.png'
 
     return (
       <>
@@ -62,10 +62,10 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter()
 
     if (['/', '/docs'].includes(asPath)) {
-      return { titleTemplate: 'Gamba' }
+      return { titleTemplate: 'Lisprocoin' }
     }
 
-    return { titleTemplate: '%s | Gamba' }
+    return { titleTemplate: '%s | Lisprocoin' }
   },
   primaryHue: {
     light: 270,

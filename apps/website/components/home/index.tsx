@@ -118,7 +118,7 @@ function DoubleOrNothing() {
 function App() {
   return (
     <GambaProvider>
-      <GambaPlatformProvider creator={"<CREATOR_ADDRESS_HERE>"}>
+      <GambaPlatformProvider creator="EPqPP8mSk4bFNfk5cAg9hGR6XPLwh9Rp3Lo4wDiLEdRZ">
         <DoubleOrNothing />
       </GambaPlatformProvider>
     </GambaProvider>
