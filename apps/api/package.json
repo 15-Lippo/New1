@@ -21,7 +21,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "lisprocoin-core-v2": "workspace:*",
+    "@gamba/core": "workspace:*",
     "node-cron": "^3.0.3",
     "next": "13.4.19",
     "react": "18.2.0",
