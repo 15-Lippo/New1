@@ -1,5 +1,5 @@
 {
-  "name": "lisprocoin-react-ui-v2",
+  "name": "@gamba/react-ui",
   "private": false,
   "version": "0.7.1",
   "main": "dist/index.js",
@@ -20,8 +20,8 @@
   "dependencies": {
     "@coral-xyz/anchor": "^0.28.1-beta.1",
     "@solana/web3.js": "^1.87.6",
-    "lisprocoin-core-v2": "workspace:*",
-    "lisprocoin-react-v2": "workspace:*",
+    "@gamba/core": "workspace:*",
+    "@gamba/react": "workspace:*",
     "react": "^18.3.1",
     "zustand": "^4.4.3"
   },
@@ -36,8 +36,8 @@
   "peerDependencies": {
     "@coral-xyz/anchor": "^0.28.1-beta.1",
     "@solana/web3.js": "^1.87.6",
-    "lisprocoin-core-v2": "*",
-    "lisprocoin-react-v2": "*",
+    "@gamba/core": "*",
+    "@gamba/react": "*",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

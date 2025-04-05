@@ -1,5 +1,5 @@
 {
-  "name": "lisprocoin-react-v2",
+  "name": "@gamba/react",
   "private": false,
   "version": "1.2.1",
   "main": "dist/index.js",
@@ -23,7 +23,7 @@
     "@solana/spl-token": "^0.3.8",
     "@solana/wallet-adapter-react": "^0.15.35",
     "@solana/web3.js": "^1.87.6",
-    "lisprocoin-core-v2": "workspace:*",
+    "@gamba/core": "workspace:*",
     "react": "^18.3.1",
     "swr": "^2.2.4",
     "zustand": "^4.4.3"
@@ -39,7 +39,7 @@
     "@coral-xyz/anchor": "^0.28.1-beta.1",
     "@solana/wallet-adapter-react": "^0.15.35",
     "@solana/web3.js": "^1.87.6",
-    "lisprocoin-core-v2": "*",
+    "@gamba/core": "*",
     "react": "^18.3.1"
   },
   "peerDependenciesMeta": {

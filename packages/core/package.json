@@ -1,5 +1,5 @@
 {
-  "name": "lisprocoin-core-v2",
+  "name": "@gamba/core",
   "private": false,
   "version": "0.4.1",
   "main": "dist/index.js",
