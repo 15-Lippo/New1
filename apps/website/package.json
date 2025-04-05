@@ -1,46 +1,37 @@
 {
   "name": "website",
-  "version": "0.0.2",
-  "description": "gamba-labs docs",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+    "start": "next start",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gamba-labs/gamba/tree/docs"
-  },
-  "bugs": {
-    "url": "https://github.com/gamba-labs/gamba/tree/docs/issues"
-  },
-  "homepage": "https://github.com/gamba-labs/gamba/tree/docs#readme",
   "dependencies": {
-    "@chakra-ui/react": "^2.7.0",
-    "@codesandbox/sandpack-react": "^2.6.7",
-    "@radix-ui/react-popover": "1.0.6",
-    "@types/node": "^20.8.7",
-    "@types/react": "^18.2.31",
-    "bright": "^0.8.2",
-    "buffer": "^6.0.3",
-    "clsx": "^2.1.1",
-    "crypto-browserify": "^3.12.0",
-    "next": "^13.5.6",
-    "nextra": "^2.13.2",
-    "nextra-theme-docs": "^2.13.2",
-    "react": "^18.3.1",
-    "react-code-blocks": "^0.1.5",
-    "react-dom": "^18.3.1",
-    "react-markdown": "^8.0.7",
-    "react-parallax-tilt": "^1.7.171",
-    "react-syntax-highlighter": "^15.5.0",
-    "stream-browserify": "^3.0.0",
-    "tailwindcss": "^3.3.2",
     "@gamba/core": "workspace:*",
     "@gamba/react": "workspace:*",
-    "@gamba/react-ui": "workspace:*"
+    "@gamba/react-ui": "workspace:*",
+    "@mdx-js/loader": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "@next/mdx": "^13.4.4",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "next": "^13.4.4",
+    "nextra": "^2.7.1",
+    "nextra-theme-docs": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "stream-browserify": "^3.0.0"
   },
   "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "eslint": "^8.48.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
